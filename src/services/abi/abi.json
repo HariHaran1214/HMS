@@ -1,0 +1,520 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "message",
+				"type": "string"
+			}
+		],
+		"name": "message",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_did",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_fullname",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_age",
+				"type": "int256"
+			},
+			{
+				"internalType": "string",
+				"name": "_gender",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_Address",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_phone",
+				"type": "int256"
+			},
+			{
+				"internalType": "string",
+				"name": "_email",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_qualification",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_speciality",
+				"type": "string"
+			}
+		],
+		"name": "RegisterDoc",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_pid",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_fullname",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_age",
+				"type": "int256"
+			},
+			{
+				"internalType": "string",
+				"name": "_gender",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_Address",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_phone",
+				"type": "int256"
+			},
+			{
+				"internalType": "string",
+				"name": "_email",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_docid",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_docnote",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_wardtype",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_wardno",
+				"type": "int256"
+			}
+		],
+		"name": "RegisterIp1",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_pid",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_noofadmitteddays",
+				"type": "int256"
+			},
+			{
+				"internalType": "string",
+				"name": "_dateofadmitted",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_dateofdischarge",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_labname",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_testresults",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_prescription",
+				"type": "string"
+			}
+		],
+		"name": "RegisterIp2",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_pid",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_fullname",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_age",
+				"type": "int256"
+			},
+			{
+				"internalType": "string",
+				"name": "_gender",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_Address",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_phone",
+				"type": "int256"
+			},
+			{
+				"internalType": "string",
+				"name": "_email",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_docid",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_docnote",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_prescription",
+				"type": "string"
+			}
+		],
+		"name": "RegisterOp",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_did",
+				"type": "string"
+			}
+		],
+		"name": "ViewDoc",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "did",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "fullname",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "age",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "gender",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Address",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "phone",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "qualification",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "speciality",
+						"type": "string"
+					}
+				],
+				"internalType": "struct HMS.Doctor",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_pid",
+				"type": "string"
+			}
+		],
+		"name": "ViewIp",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "pid",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "age",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "fullname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "gender",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Address",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "phone",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "docid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "docnote",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "wardtype",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "wardno",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "noofadmitteddays",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "dateofadmitted",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dateofdischarge",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "labname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "testresults",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "prescription",
+						"type": "string"
+					}
+				],
+				"internalType": "struct HMS.InPatient",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_pid",
+				"type": "string"
+			}
+		],
+		"name": "ViewOp",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "pid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "fullname",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "age",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "gender",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Address",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "phone",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "docid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "docnote",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "prescribtion",
+						"type": "string"
+					}
+				],
+				"internalType": "struct HMS.OutPatient",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "docount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "ipc",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "opc",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
